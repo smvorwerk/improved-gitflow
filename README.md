@@ -41,7 +41,7 @@ excellent git-flow installer, which can be run using the following command:
 Execute the following shell script:
 
 ```shell
-	$ wget -q  https://raw.githubusercontent.com/svorwerk-dentsu/working-with-git/raw/develop/improved-gitflow/contrib/gitflow-installer.sh && sudo bash gitflow-installer.sh install stable; rm gitflow-installer.sh
+	$ wget -q  https://raw.githubusercontent.com/svorwerk-dentsu/improved-gitflow/raw/develop/contrib/gitflow-installer.sh && sudo bash gitflow-installer.sh install stable; rm gitflow-installer.sh
 ```
 
 ### Installing on Mac OS X
@@ -54,18 +54,18 @@ Execute the following shell script:
 Even using wget its a one line effort.
 
 ```shell
-    wget --no-check-certificate -q -O - https://github.com/svorwerk-dentsu/working-with-git/raw/develop/improved-gitflow/contrib/gitflow-installer.sh install stable| sudo bash
+    wget --no-check-certificate -q -O - https://github.com/svorwerk-dentsu/improved-gitflow/raw/develop/contrib/gitflow-installer.sh install stable| sudo bash
 ```
 
 #### Alternative-Alternative Installation option using curl
 
 ```shell
-    curl https://raw.githubusercontent.com/svorwerk-dentsu/working-with-git/develop/improved-gitflow/contrib/gitflow-installer.sh > gitflow-installer.sh
+    curl https://raw.githubusercontent.com/svorwerk-dentsu/improved-gitflow/develop/contrib/gitflow-installer.sh > gitflow-installer.sh
     chmod a+x gitflow-installer.sh
 ```
 
 #### Stable release
-    curl -sL https://github.com/svorwerk-dentsu/working-with-git/raw/develop/improved-gitflow/contrib/gitflow-installer.sh | sudo bash -s install stable
+    curl -sL https://github.com/svorwerk-dentsu/improved-gitflow/raw/develop/contrib/gitflow-installer.sh | sudo bash -s install stable
     
 #### Post installation setup
 
@@ -83,7 +83,7 @@ If you have installed GNU getopt through other means than Homebrew, substitute `
 ## Integration with your shell
 
 For those who use the [Bash](http://www.gnu.org/software/bash/) or [ZSH](http://www.zsh.org)
-shell, you can use my [fork of git-flow-completion](https://github.com/svorwerk-dentsu/working-with-git/tree/develop/fork-of-git-flow-completion)
+shell, you can use my [fork of git-flow-completion](https://github.com/svorwerk-dentsu/improved-gitflow/tree/develop/fork-of-git-flow-completion)
 which includes several additions for git-flow (AVH Edition), or you can use the
 original [git-flow-completion](http://github.com/bobthecow/git-flow-completion)
 project by [bobthecow](http://github.com/bobthecow). Both offer tab-completion
